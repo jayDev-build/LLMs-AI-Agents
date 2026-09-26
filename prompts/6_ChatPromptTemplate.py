@@ -6,8 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 mssgs = ChatPromptTemplate([
-    ("system", "You are a helpful assistant that provides information about research papers."),
-    ("human", "Please summarize the research paper titled '{title}' ")
+    # ("system", "You are a helpful assistant that provides information about research papers."),
+    # ("human", "Please summarize the research paper titled '{title}' "),
+    SystemMessage(content='You are a helpful assistant that provides information about research papers.'),
+    HumanMessage(content='You are a helpful assistant that provides information about research papers.')
     ])
 
 prompt = mssgs.invoke({"title": "Attention Is All You Need"})
