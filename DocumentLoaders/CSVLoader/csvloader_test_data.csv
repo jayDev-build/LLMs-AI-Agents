@@ -1,0 +1,11 @@
+id,name,email,age,city,signup_date,total_spent
+1,Alice,alice@example.com,25,Delhi,2026-01-15,1250.5
+2,Bob,bob@example.com,30,Mumbai,2026-02-03,980.0
+3,Charlie,charlie@example.com,28,Bengaluru,2026-02-18,2150.75
+4,Diana,diana@example.com,35,Hyderabad,2026-03-01,750.25
+5,Ethan,ethan@example.com,22,Pune,2026-03-12,430.0
+6,Fiona,fiona@example.com,31,Chennai,2026-04-05,1899.99
+7,George,george@example.com,27,Kolkata,2026-04-21,620.4
+8,Hannah,hannah@example.com,29,Jaipur,2026-05-09,1340.0
+9,Ian,ian@example.com,40,Ahmedabad,2026-05-23,2999.5
+10,Julia,julia@example.com,26,Gurugram,2026-06-14,875.8
